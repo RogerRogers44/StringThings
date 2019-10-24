@@ -37,4 +37,15 @@ middleCharIndex = len(name) // 2
 print(middleCharIndex)
 print(name[middleCharIndex])
 print(name[-1])
+print(name[-3])
+
+for i in range(4, len(name)):
+    print("HI", name[i])
+
+# Slicing
+# Second number is up to, but not including, where you stop
+print(name[4:-3])
+
+for i in range(0, len(name)):
+    print("BOO", name[0:i])
 

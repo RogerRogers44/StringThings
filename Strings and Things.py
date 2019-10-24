@@ -49,3 +49,11 @@ print(name[4:-3])
 for i in range(0, len(name)):
     print("BOO", name[0:i])
 
+# Searching
+
+print("Biv" in name)
+
+if "y" not in name:
+    print("y in not in name")
+else:
+    print("y is in name")

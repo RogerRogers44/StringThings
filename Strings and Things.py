@@ -62,3 +62,8 @@ else:
 # Character Based functions
 
 print(chr(75))
+
+from mapper import *
+print(letterToIndex('m'))
+
+print(indexToLetter(24))

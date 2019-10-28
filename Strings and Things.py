@@ -57,3 +57,8 @@ if "y" not in name:
     print("y in not in name")
 else:
     print("y is in name")
+
+
+# Character Based functions
+
+print(chr(75))

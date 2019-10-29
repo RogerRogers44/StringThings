@@ -68,7 +68,13 @@ print(letterToIndex('m'))
 
 print(indexToLetter(24))
 
+
+# crypto
 from Crypto import *
 
 
 print(scramble2Encrypt("THE MEETING IS AT FIVE OCLOCK"))
+print(scramble2Encrypt("H ETN SA IEOLCTEMEIGI TFV COK"))
+print(scrambleToDecrypt(" T AIOCEEG F OHENS ELTMIITVCK"))
+print(scrambleToDecrypt("H ETN SA IEOLCTEMEIGI TFV COK"))
+print(scrambleToDecrypt("H ETN SA IEOLCTEMEIGI TFV COK"))

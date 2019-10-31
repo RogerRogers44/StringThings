@@ -78,3 +78,8 @@ print(scramble2Encrypt("H ETN SA IEOLCTEMEIGI TFV COK"))
 print(scrambleToDecrypt(" T AIOCEEG F OHENS ELTMIITVCK"))
 print(scrambleToDecrypt("H ETN SA IEOLCTEMEIGI TFV COK"))
 print(scrambleToDecrypt("H ETN SA IEOLCTEMEIGI TFV COK"))
+
+
+# Caesar
+
+print(CaesarCypherEncrypt("hiii"))

@@ -31,3 +31,13 @@ def scrambleToDecrypt(cipherText):
         plainText = plainText + evenChars[-1]
 
     return plainText
+
+
+from mapper import *
+
+def CaesarCypherEncrypt(plaintext):
+    for i in range(len(plaintext)):
+        firstCharacter = plaintext[0]
+        a = letterToIndex(firstCharacter) - 3
+        firstencryptcharacter = indexToLetter(a)
+        return firstencryptcharacter
